@@ -1,0 +1,31 @@
+1. Data Collection
+
+Data collection is the first step in the machine learning process. It involves gathering relevant data from different sources. For this project, a student performance dataset was created manually. The dataset contains study hours, attendance, assignments, and marks. Good quality data helps build accurate models.
+
+2. Data Cleaning
+
+Data cleaning involves checking for missing values, duplicate records, and incorrect data types. Clean data improves model accuracy and reliability. In this dataset, the data was already clean and did not contain missing values. Therefore, no additional cleaning was required.
+
+3. Feature Selection
+
+Feature selection is the process of choosing input variables that influence the target variable. In this project, Study_Hours, Attendance, and Assignments were selected as features. Marks was selected as the target variable. Proper feature selection improves model performance.
+
+4. Train-Test Split
+
+The dataset was divided into training and testing sets. Eighty percent of the data was used for training and twenty percent for testing. The training set helps the model learn patterns while the testing set evaluates performance on unseen data.
+
+5. Model Training
+
+Model training involves teaching the machine learning algorithm using the training data. A Linear Regression model was used in this project. The algorithm learned the relationship between study habits and student marks.
+
+6. Testing
+
+Testing evaluates the model using data that was not used during training. Predictions are generated using the testing dataset. These predictions are compared with actual values to measure performance.
+
+7. Evaluation
+
+Evaluation measures how accurately the model performs. Mean Absolute Error and R² Score were used. A low MAE and high R² Score indicate strong predictive performance.
+
+8. Prediction
+
+Prediction is the final step of the workflow. The trained model is used to predict marks for new student data. This helps estimate future outcomes based on study hours, attendance, and assignment completion.

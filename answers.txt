@@ -1,0 +1,51 @@
+Part 5 Answers
+
+1. What is the slope?
+
+Slope (Coefficients):
+[3.45487968, 1.34491979, -2.40274064]
+
+2. What is the intercept?
+
+Intercept:
+-48.100601604278054
+
+3. What do they mean?
+
+The slope values show how much the Marks change when one feature increases by one unit while keeping other features constant.
+
+Study_Hours coefficient = 3.45487968
+This means Marks increase by about 3.45 for every additional study hour.
+
+Attendance coefficient = 1.34491979
+This means Marks increase by about 1.34 for every additional attendance percentage point.
+
+Assignments coefficient = -2.40274064
+This indicates a negative relationship in this small dataset.
+
+Intercept = -48.100601604278054
+This is the predicted Marks value when all feature values are zero.
+
+Part 7 Answer
+
+The student with the highest prediction error can be identified from the Actual vs Predicted comparison table generated in the notebook.
+
+Part 8 Answers
+
+1. What is MAE?
+
+MAE (Mean Absolute Error) measures the average absolute difference between actual and predicted values.
+
+MAE = 1.3453654188948245
+
+2. What is R² Score?
+
+R² Score measures how well the model explains the variation in the target variable.
+
+R² Score = 0.9929962957709836
+
+3. Is the model performing well?
+
+Yes.
+
+The MAE value is very low and the R² Score is very close to 1, indicating excellent prediction performance.
